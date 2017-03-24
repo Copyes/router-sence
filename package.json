@@ -1,0 +1,30 @@
+{
+  "name": "router-sence",
+  "version": "1.0.0",
+  "description": "'a lib for route manage with animation'",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Copyes/router-sence.git"
+  },
+  "author": "lip.fan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Copyes/router-sence/issues"
+  },
+  "homepage": "https://github.com/Copyes/router-sence#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-syntax-class-properties": "^6.13.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "webpack": "^2.3.1",
+    "webpack-dev-server": "^2.4.2",
+    "webpack-merge": "^4.1.0"
+  }
+}
