@@ -1,11 +1,9 @@
-const webpack = require("webpack");
-const webpackDevServer = require("webpack-dev-server");
-const config = require("./build/webpack.env.config.js");
+const webpack = require('webpack')
+const WebpackDevServer = require('webpack-dev-server')
+console.log('start');
+const config = require('./build/webpack.dev.config.js')
 
-config.entry.unshift("");
-
-const compiler = webpack(config);
-
-const server = new webpackDevServer(compiler, {});
-
-server.listen(9999);
+config.entry.unshift("webpack-dev-server/client?http://localhost:9999/")
+const compiler = webpack(config)
+const server = new WebpackDevServer(compiler, {})
+server.listen(9999)
